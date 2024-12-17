@@ -1,0 +1,96 @@
+[2024-12-17T19:52:44.302Z]
+Error: secret option required for sessions
+Stack: Error: secret option required for sessions
+    at session (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express-session\index.js:204:12)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\cookie-parser\index.js:57:14)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:286:9
+Route: //api/user/signup
+Method: POST
+------------------------------------------------
+[2024-12-17T19:53:17.941Z]
+Error: secret option required for sessions
+Stack: Error: secret option required for sessions
+    at session (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express-session\index.js:204:12)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:280:10)
+    at cookieParser (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\cookie-parser\index.js:57:14)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:286:9
+Route: /api/user/signup
+Method: POST
+------------------------------------------------
+[2024-12-17T20:34:39.627Z]
+Error: jwt is not defined
+Stack: ReferenceError: jwt is not defined
+    at verifyJwt (C:\Users\Mohammad Hussein\Desktop\project\secondTest\middlewares\verifyJwt.js:8:3)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:47:12)
+Route: /api/user/post/add-post
+Method: POST
+------------------------------------------------
+[2024-12-17T20:35:18.321Z]
+Error: jwt is not defined
+Stack: ReferenceError: jwt is not defined
+    at verifyJwt (C:\Users\Mohammad Hussein\Desktop\project\secondTest\middlewares\verifyJwt.js:8:3)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:47:12)
+Route: /api/user/post/add-post
+Method: POST
+------------------------------------------------
+[2024-12-17T20:38:55.674Z]
+Error: jwt is not defined
+Stack: ReferenceError: jwt is not defined
+    at verifyJwt (C:\Users\Mohammad Hussein\Desktop\project\secondTest\middlewares\verifyJwt.js:8:3)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\express\lib\router\index.js:47:12)
+Route: /api/user/post/add-post
+Method: POST
+------------------------------------------------
+[2024-12-17T21:26:01.700Z]
+Error: Expected double-quoted property name in JSON at position 73
+Stack: SyntaxError: Expected double-quoted property name in JSON at position 73
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Mohammad Hussein\Desktop\project\secondTest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Route: /api/admin/add-admin
+Method: POST
+------------------------------------------------
